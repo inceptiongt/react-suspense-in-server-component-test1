@@ -19,14 +19,6 @@ export default async function SearchResults({ searchParams }) {
   //   }
   return (
     <>
-      <Link href={"/"}>Index</Link>
-      <ul>
-        <li>
-          <Link href={"/search?q=a"}>q=a</Link>
-          <Link href={"/search?q=b"}>q=b</Link>
-          <Link href={`/search?q=${Math.random()}`}>q=random</Link>
-        </li>
-      </ul>
       00000
       <Albums query={query} />
       <div>11111</div>
